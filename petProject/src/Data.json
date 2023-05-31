@@ -1,0 +1,38 @@
+{
+    "title": "Galería de Perros",
+    "description": "Estos amigos necesitan un hogar!",
+    "dog": [
+        {
+            "id": 1,
+            "name": "Bartolo",
+            "image": "public/img/Pet1.jpg",
+            "description": "Lleno de energia y listo para jugar.¡Dale a Bartolo el Hogar amoroso que se merece!",
+            "age": 3,
+            "breed": "Border Collie"
+        },
+        {
+            "id": 2,
+            "name": "Messi",
+            "image": "public/img/Pet2.jpg",
+            "description": "Es jugueton, amigable y se lleva bien con niños y otros animales.¡Haz de messi parte de tu familia hoy mismo!",
+            "age": 10,
+            "breed": "Ovejero Australiano"
+        },
+        {
+            "id": 3,
+            "name": "Gohan",
+            "image": "public/img/Pet3.jpg",
+            "description": "Un perro de tamaño mediano con un corazon gigante.¡Hazte amigo de Gohan y experimenta un amor incondicioanl!",
+            "age": 5,
+            "breed": "Braco de Weimar"
+        },
+        {
+            "id": 4,
+            "name": "Princesa",
+            "image": "public/img/Pet5.jpg",
+            "description":"Es una compañera leal y cariñosa que adora los mimos y los abrazos.¡Ayuda a princesa a encontrar su final feliz!",
+            "age": 7,
+            "breed": "Alusky"
+        }
+    ]
+}
