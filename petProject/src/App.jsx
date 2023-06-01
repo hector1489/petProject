@@ -1,8 +1,9 @@
 import React from 'react'
-import data from './Data'
-import Navbar from './components/Navbar/Navbar'
+import data from './data'
+import Header from './components/Header/Header'
 import Cards from './components/PetCard/PetCard'
 import Footer from './components/Footer/Footer'
+import './index.css'
 
 
 
@@ -10,18 +11,21 @@ function App() {
 
   return (
     <>
-      <Navbar title={data.title} />
+      <Header title={data.title} />
       <div className='gallery'>
-        {data.dog.map((dog) => (
-          <Cards
-            key={dog.id}
-            name={dog.name}
-            description={dog.description}
-            age={dog.age}
-            image={dog.image}
-            breed={dog.breed}
-          />
-        ))}
+        <div className="card-container">
+          {data.dogs.map((dog) => (
+            <Cards
+              key={dog.id}
+              name={dog.name}
+              description={dog.description}
+              age={dog.age}
+              image={dog.image}
+              breed={dog.breed}
+              color={dog.color}
+            />
+          ))}
+        </div>
       </div>
       <Footer description={data.description}/>
     </>

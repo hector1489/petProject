@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar  = ({title}) => {
+const Header  = ({title}) => {
     return (
          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container d-flex justify-content-center">
@@ -10,4 +10,4 @@ const Navbar  = ({title}) => {
     )
 }
 
-export default Navbar
+export default Header
